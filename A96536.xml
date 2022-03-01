@@ -1,0 +1,651 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>To the Kings most sacred Majesty, upon his happy and glorious return an endeavoured poem. By Samuel Willes.</title>
+            <author>Willes, Samuel, 1611-1684.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1660</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 20 KB of XML-encoded text transcribed from 8 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-04">2011-04 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A96536</idno>
+            <idno type="STC">Wing W2306</idno>
+            <idno type="STC">Thomason E1027_15</idno>
+            <idno type="STC">ESTC R208877</idno>
+            <idno type="EEBO-CITATION">99867794</idno>
+            <idno type="PROQUEST">99867794</idno>
+            <idno type="VID">168880</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A96536)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 168880)</note>
+            <note>Images scanned from microfilm: (Thomason Tracts ; 152:E1027[15])</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>To the Kings most sacred Majesty, upon his happy and glorious return an endeavoured poem. By Samuel Willes.</title>
+                  <author>Willes, Samuel, 1611-1684.</author>
+               </titleStmt>
+               <extent>[2], 12, [2] p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by T.R. for John Baker at the sign of the Peacock in St. Pauls Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1660.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>With a blank final leaf.</note>
+                  <note>Annotation on Thomason copy: "June 15".</note>
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Charles --  II, --  King of England, 1630-1685 --  Poetry --  Early works to 1800.</term>
+               <term>Restorations, Political --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-01</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-02</date>
+            <label>Lauren Proux</label>Sampled and proofread</change>
+         <change>
+            <date>2010-02</date>
+            <label>Lauren Proux</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2010-04</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:168880:1" rendition="simple:additions"/>
+            <p>TO THE KING'S <hi>MOST SACRED</hi> MAJESTY, <g ref="char:V">Ʋ</g>pon his Happy and Glorious RETURN An endeavoured POEM.</p>
+            <p>BY <hi>SAM<g ref="char:V">Ʋ</g>EL WILLES.</hi>
+            </p>
+            <q>
+               <p>
+                  <hi>Creſſa</hi> ne careat pulcra dies nota.</p>
+               <bibl>
+                  <hi>Horat.</hi>
+               </bibl>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>T. R.</hi> for <hi>John Baker</hi> at the ſign of the <hi>Peacock</hi> in <hi>St. Pauls</hi> Church-yard 1660.</p>
+         </div>
+      </front>
+      <body>
+         <div type="poem">
+            <div type="part">
+               <pb facs="tcp:168880:2"/>
+               <pb n="1" facs="tcp:168880:2"/>
+               <lg n="1">
+                  <head>I.</head>
+                  <l>
+                     <seg rend="decorInit">C</seg>Ome, now the greater <hi>Muſes</hi> all have done,</l>
+                  <l>And with majeſtick ſteps meaſur'd the <hi>story,</hi>
+                  </l>
+                  <l>Now <hi>Cowley,</hi> and the reſt the race have run,</l>
+                  <l>And in their way ſwallow'd up all the <hi>glory,</hi>
+                  </l>
+                  <l>I'le <hi>pump</hi> a rime or two come <hi>Muſe,</hi> we'l go,</l>
+                  <l>
+                     <hi>Iove</hi> loves a <hi>true</hi> devotion though't be <hi>ſlow.</hi>
+                  </l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>Welcome <hi>Great Charles!</hi> Heark, how the <hi>Britiſh Iſle</hi>
+                  </l>
+                  <l>Bellow's the gallant <hi>Echo,</hi> ev'ry Sea</l>
+                  <l>Changes his angry <hi>Frown</hi> into a <hi>ſmile,</hi>
+                  </l>
+                  <l>And tells th' <hi>enquiring</hi> winds 'tis <hi>Holyday.</hi>
+                  </l>
+                  <l>
+                     <hi>Charles</hi> is return'd, and every thing muſt be</l>
+                  <l>Cloathed with brisk and ſweet ſerenity.</l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>Stay! ſpeak of <hi>Charles,</hi> what vent'rous tongue dares ſay</l>
+                  <l>What that important <hi>Name</hi> doth ſignifie?</l>
+                  <l>Like the <hi>Philoſopher;</hi> I'de ask a day,</l>
+                  <l>Then ten, or more. So great a Majeſty</l>
+                  <l>Perplexes humane reaſon to define,</l>
+                  <l>And like a <hi>Gulph,</hi> ſwallows up all the <hi>Line.</hi>
+                  </l>
+               </lg>
+               <pb n="2" facs="tcp:168880:3"/>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>His high auſpicious <hi>Birth</hi> did plainly ſhew</l>
+                  <l>That bounteous <hi>Heav'n</hi> ſome mighty <hi>Prince</hi> deſign'd:</l>
+                  <l>
+                     <hi>Angels</hi> could ſcarce keep Counſel; <hi>big</hi> they grew,</l>
+                  <l>Yet none durſt venture to <hi>unload</hi> his mind.</l>
+                  <l>Only one loving <hi>Star,</hi> in ſpight o' th' day</l>
+                  <l>Came t' us at noon, and told us where <hi>he</hi> lay.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg n="1">
+                  <head>I.</head>
+                  <l>ALL <hi>England</hi> now one <hi>Aetna</hi> ſeems to be,</l>
+                  <l>Beſet with joyfull <hi>Bonefires</hi> every where:</l>
+                  <l>Like dam'd <hi>Enceladus</hi> benath't I ſee</l>
+                  <l>The conquer'd <hi>Rump</hi> ſtrugling to ſee what's here,</l>
+                  <l>Heaves up the flaming <hi>Burden,</hi> but in vain,</l>
+                  <l>It <hi>gives</hi> him breath to <hi>take</hi>'t away again.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>Great <hi>Charles!</hi> That very Name when't reach our <hi>Land</hi>
+                  </l>
+                  <l>Sounded deliverance and quick ſupply:</l>
+                  <l>
+                     <hi>Dagon,</hi> our trembling Monſter here did ſtand,</l>
+                  <l>Amaz'd at th' very thoughts of <hi>Majeſty,</hi>
+                  </l>
+                  <l>Curſing his ugly <hi>Tail,</hi> which mark't him out</l>
+                  <l>For one of Deſolations branded <hi>Rout.</hi>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>Thus when the other <hi>Dagon</hi> did but ſee</l>
+                  <l>The glorious dawning of the <hi>Ark,</hi> he fled;</l>
+                  <l>And tumbling down with <hi>fatal piety,</hi>
+                  </l>
+                  <l>Againſt the Threſhold daſht his ugly head,</l>
+                  <l>Glad that his <hi>Godſhip</hi>'s ruines might but be</l>
+                  <l>The Tomb of Him and his deformity.</l>
+               </lg>
+               <pb n="3" facs="tcp:168880:3"/>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>Come heavy <hi>Muſe,</hi> let's try if we can ſing,</l>
+                  <l>And <hi>ſcrue</hi> our frozen notes, until they meet,</l>
+                  <l>As th' faſhion is, in verſe wee'll meet <hi>the King,</hi>
+                  </l>
+                  <l>Although we limping go with gowty feet.</l>
+                  <l>What though we have no wit? Let's blame the Fate,</l>
+                  <l>That frighted's <hi>out of it</hi> in — 48.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg n="1">
+                  <head>I.</head>
+                  <l>WHat mean thoſe guilded <hi>Streamers</hi> there ſo high,</l>
+                  <l>Dancing like Lightning through the chearful air,</l>
+                  <l>As if they meant to <hi>ſweep</hi> and <hi>bruſh</hi> the Sky</l>
+                  <l>From all the miſty <hi>Cobwebs</hi> that hang there.</l>
+                  <l>See how Heaven decks his <hi>Azure</hi> Canopy</l>
+                  <l>With <hi>ſhoals</hi> of ſtars, and bright ſerenity.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>Heark how the liſt'ning winds creep gently by,</l>
+                  <l>And whiſper <hi>Charles</hi> unto the crowded ſhore,</l>
+                  <l>Old <hi>Time</hi> ſtands ſtill, and quite forgets to fly,</l>
+                  <l>Surpriz'd with wonder, for he ne're before</l>
+                  <l>In the whole worlds voluminous <hi>Book</hi> did ſee</l>
+                  <l>So great, ſo good, ſo juſt a <hi>Majeſty.</hi>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>Great is thy charge, O <hi>Sea;</hi> be true, and bring</l>
+                  <l>Thy wealthy <hi>Burden</hi> to the longing Land;</l>
+                  <l>Thy happy waves that bear ſo great a <hi>King</hi>
+                  </l>
+                  <l>Are richer far than all the wealthy ſand,</l>
+                  <l>Though every grain were turned into a gem,</l>
+                  <l>And both the wealthy <hi>Indies</hi> thrown to them.</l>
+               </lg>
+               <pb n="4" facs="tcp:168880:4"/>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>See how the <hi>Deep</hi> levels his <hi>curled</hi> brow</l>
+                  <l>To a ſmooth glaſſy <hi>plain,</hi> for <hi>Charles</hi> is there:</l>
+                  <l>Not any churliſh billow <hi>grumbles</hi> now,</l>
+                  <l>But <hi>melts</hi> his ſullen rage to quiet fear;</l>
+                  <l>Each loyal wave crowds with his <hi>wat'ry</hi> lip,</l>
+                  <l>And dies in cloſe <hi>embraces</hi> of the Ship.</l>
+               </lg>
+               <lg n="5">
+                  <head>V.</head>
+                  <l>The ſcalie <hi>Dolphins</hi> mount their loyal heads,</l>
+                  <l>And by th' <hi>adored</hi> ſhip they ſtoutly ſwim,</l>
+                  <l>Forgetting, all the while, their wat'ry <hi>Beds;</hi>
+                  </l>
+                  <l>And when their expectation ſpyes but <hi>Him,</hi>
+                  </l>
+                  <l>See how one laughing there cageol's another,</l>
+                  <l>And whiſpers his <hi>content</hi> unto his brother.</l>
+               </lg>
+               <lg n="6">
+                  <head>VI.</head>
+                  <l>And all thoſe <hi>ſhell'd Inhabitants</hi> of th' ſand,</l>
+                  <l>That never yet forſook the <hi>gloomy</hi> ſhore,</l>
+                  <l>That cloyſter'd up in <hi>Water,</hi> dwell o' th' <hi>Land,</hi>
+                  </l>
+                  <l>They ope their <hi>ſhops,</hi> and bring their ſparkling ſtore,</l>
+                  <l>Such brisk eradiations with them came,</l>
+                  <l>You'd ſwear the very <hi>Sea</hi> were choak't in <hi>flame.</hi>
+                  </l>
+               </lg>
+               <lg n="7">
+                  <head>VII.</head>
+                  <l>Hee's come! See what a crowd ſurrounds the ſhip,</l>
+                  <l>
+                     <hi>Men, Beasts</hi> and <hi>Birds;</hi> nothing did ſtay behind;</l>
+                  <l>Each one preparing his obſequious <hi>lip</hi>
+                  </l>
+                  <l>To give a faint expreſſion of his <hi>mind:</hi>
+                  </l>
+                  <l>
+                     <hi>Noah</hi> not half ſo well bethronged ſtood,</l>
+                  <l>When he was <hi>King</hi> o' th' floating world i' th' flood,</l>
+               </lg>
+            </div>
+            <div type="part">
+               <pb n="5" facs="tcp:168880:4"/>
+               <lg n="1">
+                  <head>I.</head>
+                  <l>HE's come! 'twas when the might <hi>ſtorms</hi> had call'd</l>
+                  <l>The roaring <hi>Thunders</hi> out and cracking <hi>hail,</hi>
+                  </l>
+                  <l>When th' <hi>panting</hi> winds i' th' furrow'd ſea were ſtall'd,</l>
+                  <l>And we no ſign ſaw but the <hi>Scorpions Tayl:</hi>
+                  </l>
+                  <l>He like the <hi>Sun</hi> broke forth, and frighted They</l>
+                  <l>Trembled to heaps, and ſneaking <hi>ſleer'd</hi> away.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>They ſneakt away, and great <hi>Aſtraea</hi> came</l>
+                  <l>To repoſſeſs her long-uſurped ſeat,</l>
+                  <l>And bluſht (as well ſhe might) with pious ſhame</l>
+                  <l>To ſee her Courts <hi>reeking</hi> with bloody ſweat.</l>
+                  <l>When Juſtice dies at <hi>Court,</hi> then how can we</l>
+                  <l>
+                     <hi>Obſcurer Mortals</hi> look for equity?</l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>The fierceſt Beaſts meet <hi>Him,</hi> and ſhivering come</l>
+                  <l>To do abeyſance at his royal feet:</l>
+                  <l>Their ſilent duties bid him welcome home,</l>
+                  <l>So the great <hi>Nomenclator</hi> they did greet</l>
+                  <l>With trembling reverence, when to him they came,</l>
+                  <l>In <hi>Eden</hi>'s groves each one to take a name.</l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>The <hi>frolick</hi> Rocks pluck up their heavy feet,</l>
+                  <l>And dance about; the aged nodding oak</l>
+                  <l>Gets looſe, and comes; fain would they build a ſtreet:</l>
+                  <l>Thus when the ſweet <hi>Orphean</hi> Harp but ſpoke,</l>
+                  <l>The joylly woods and ſtones forgat that they</l>
+                  <l>Were ty'd by th' feet, and nimbly tript away.</l>
+               </lg>
+            </div>
+            <div type="part">
+               <pb n="6" facs="tcp:168880:5"/>
+               <lg n="1">
+                  <head>I.</head>
+                  <l>THen from th' united <hi>Throng</hi> a mighty ſhout,</l>
+                  <l>(Louder than any Thunders roaring voice)</l>
+                  <l>With zealous acclamations burſt out,</l>
+                  <l>With ſo ſtupendious and great a voice,</l>
+                  <l>That the amazed ſhades all fled for fear,</l>
+                  <l>And let the <hi>willing</hi> day ſtay longer here.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>The ſturdy sky throws the loud <hi>Echo</hi> back</l>
+                  <l>To the low gloomy vaults o' th' ſilent earth;</l>
+                  <l>The deep foundations of the rocks do crack,</l>
+                  <l>The <hi>Infant ſprings</hi> ſtruggle to find a <hi>Birth</hi>
+                  </l>
+                  <l>That they may hope at leaſt to kiſs his feet,</l>
+                  <l>And by that ſacred <hi>Touch</hi> learn to be ſweet.</l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>Down to the great <hi>Abyſs</hi> the ſacred <hi>Name,</hi>
+                  </l>
+                  <l>The Name of <hi>Charles</hi> broke down, and with a voice,</l>
+                  <l>Louder than all the <hi>Cryes</hi> that rend the flame,</l>
+                  <l>Layes a dumb ſilence upon every noiſe.</l>
+                  <l>Then to all <hi>Hell</hi> defiance thrice he cries,</l>
+                  <l>To <hi>Heaven</hi>'s and <hi>Mine</hi> infernal enemies.</l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>The ſtarted <hi>Furies</hi> drop their flaming whips,</l>
+                  <l>And <hi>ſweep</hi> the ſweat from off their ſcalded brows,</l>
+                  <l>Dangling their broyling tongues upon their lips,</l>
+                  <l>Each mouth like a great burning <hi>Furnace</hi> ſhows;</l>
+                  <l>Where Blaſphemy with ragefull anger ſnarls</l>
+                  <l>Both 'gainſt the ſacred <hi>Names of God and Charles.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <pb n="7" facs="tcp:168880:5"/>
+               <lg n="1">
+                  <head>I.</head>
+                  <l>O mighty influence of great <hi>Charles</hi> his Name,</l>
+                  <l>That makes the very Gates of <hi>Hell</hi> to ſhake,</l>
+                  <l>The damned ſouls get ſtrength againſt the flame,</l>
+                  <l>And by that intermiſſion <hi>Breath</hi> they take.</l>
+                  <l>But ſtay (ſad ſouls!) a Troop of <hi>Fiends</hi> comes there,</l>
+                  <l>The <hi>Legions</hi> routed now from <hi>Weſtminſter.</hi>
+                  </l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>King <hi>Satan</hi> comes, and with a ſurly brow</l>
+                  <l>Examines every Face, they trembling ſtand,</l>
+                  <l>Expecting all ſome ſad tormenting blow,</l>
+                  <l>Now ſtaring here, and then o' th' other hand,</l>
+                  <l>I'me come (ſaid he) and that I might not fail</l>
+                  <l>To come in <hi>State,</hi> look, I have brought my <hi>Tail.</hi>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>With that out of his ſcaly Boſome he</l>
+                  <l>Pluckt forth a <hi>Rowl,</hi> ſcrall'd o're with bloody Names:</l>
+                  <l>My <hi>Rump</hi> of Agitatours, here they be,</l>
+                  <l>He cry'd, the <hi>Heirs apparent</hi> of my Flames,</l>
+                  <l>And juſtly too: they wrought the Tragedy</l>
+                  <l>Of <hi>Charles,</hi> that mighty foe of <hi>Mine</hi> and <hi>Me.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg n="1">
+                  <head>I.</head>
+                  <l>In <hi>Worc'ster</hi>'s bloody Fields methinks I ſee,</l>
+                  <l>What noble reſolution fill'd his <hi>Heart,</hi>
+                  </l>
+                  <l>What low account <hi>He</hi> made of <hi>Majeſty:</hi>
+                  </l>
+                  <l>So great <hi>Apollo</hi> acted once a part</l>
+                  <l>I' th' <hi>Trojan</hi> Camp, laying aſide his <hi>Bays,</hi>
+                  </l>
+                  <l>Decking a ſteely Helmet with his <hi>Roys.</hi>
+                  </l>
+               </lg>
+               <pb n="8" facs="tcp:168880:6"/>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>Methinks I ſee <hi>Cromwel</hi>'s ſeduced crouds</l>
+                  <l>Moving, like iron-ſtatues, o're the fields,</l>
+                  <l>Whilſt his proud Banners-<hi>kiſs</hi> the gloomy clouds,</l>
+                  <l>Each face of <hi>Braſs</hi> ſupplies the want of ſheilds;</l>
+                  <l>Braſs muſt thoſe faces be, that dare defie</l>
+                  <l>Heaven, and its <hi>great Lieutenant's Majesty.</hi>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>See how th' enraged Horſes <hi>tear</hi> the way,</l>
+                  <l>And fling a cloud of duſt about their ears,</l>
+                  <l>A cloud ſo thick that't almoſt <hi>stifled</hi> day.</l>
+                  <l>See how his foaming neck one proudly rears;</l>
+                  <l>Another neighs, toſſing his curled main,</l>
+                  <l>And ſwiftly <hi>ſcours</hi> along the <hi>trembling</hi> plain.</l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>What <hi>throngs</hi> of ſharp'ned Pikes and Halberts there</l>
+                  <l>March o're th' enraged <hi>Rebel</hi>'s head ſo thick</l>
+                  <l>And cloſe, that th' very winds <hi>intangled</hi> are,</l>
+                  <l>And can't get through them but are force't to ſtick:</l>
+                  <l>Like ſome great wood upon a hill they ſhow,</l>
+                  <l>Where there's ſcarce room for' nother tree to grow,</l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg n="1">
+                  <head>I.</head>
+                  <l>MEan while the <hi>Royal ſouls</hi> themſelves prepare,</l>
+                  <l>Armed with innocence and loyalty:</l>
+                  <l>Not any <hi>Breaſt</hi> is ſtain'd with <hi>guilty</hi> fear,</l>
+                  <l>Rather than <hi>live</hi> with ſhame they chooſe to <hi>dye.</hi>
+                  </l>
+                  <l>
+                     <hi>Charls</hi> is their noble val'rous pattern, they</l>
+                  <l>Are taught by <hi>His,</hi> what face becomes the day.</l>
+               </lg>
+               <pb n="9" facs="tcp:168880:6"/>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>See here they ſally out, and there they meet:</l>
+                  <l>Hark how the thund'ring <hi>Drums torment</hi> the sky:</l>
+                  <l>Here mangled arms and legs, there hands and feet,</l>
+                  <l>Parted from their <hi>unwilling</hi> bodies fly.</l>
+                  <l>The overflowing Brooks ſwell with a flood,</l>
+                  <l>And ſtain their <hi>frighted</hi> banks with ſtreams of blood.</l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>See where a wide-mouth'd <hi>Canons</hi> burning load</l>
+                  <l>Comes roaring out, <hi>wrap't</hi> up in raging flame,</l>
+                  <l>And through the thickeſt crouds it cuts a road,</l>
+                  <l>Scorning by all reſiſtance to be tame.</l>
+                  <l>Ne're did the trembling <hi>corn</hi> fall half ſo faſt</l>
+                  <l>Before the angry <hi>Mower</hi>'s ſharpeſt haſte.</l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>Torn limbs of men and horſes ſmear'd with gore,</l>
+                  <l>In heaps do lie. There one doth ſtumbling fall,</l>
+                  <l>
+                     <hi>Snar'd</hi> in his fellow's bowels, o're and o're.</l>
+                  <l>Thouſands of <hi>New-created kindred,</hi> all</l>
+                  <l>Mangled with gaping wounds do <hi>ſtrow</hi> the Earth,</l>
+                  <l>
+                     <hi>Mixing their blood</hi> at <hi>death,</hi> though not at <hi>Birth.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg n="1">
+                  <head>I.</head>
+                  <l>BUt ſtay! who's <hi>he,</hi> that through the armed rout,</l>
+                  <l>So unreſiſtably doth run? what's he</l>
+                  <l>That <hi>deals</hi> ſo many <hi>deaths</hi> to thoſe about:</l>
+                  <l>See with what mighty force undaunted He</l>
+                  <l>Doth hew his paſſage through, whilſt trembling they,</l>
+                  <l>
+                     <hi>Cromwel</hi>'s poor Sneakes, crowd up to make him way.</l>
+               </lg>
+               <lg n="2">
+                  <pb n="10" facs="tcp:168880:7"/>
+                  <head>II.</head>
+                  <l>It muſt be <hi>Charles,</hi> who (though he ſhrouded be</l>
+                  <l>In a diſguiſes <hi>humble privacy,</hi>)</l>
+                  <l>Cannot <hi>contract</hi> his beams of Majeſty,</l>
+                  <l>No more than th' <hi>other Sun</hi> can hidden lye</l>
+                  <l>Under a dusky cloud at noon: for ſtill</l>
+                  <l>His Light all corners of the <hi>world</hi> muſt fill.</l>
+               </lg>
+               <lg n="3">
+                  <head>III.</head>
+                  <l>'Tis ,tis the <hi>mighty Prince:</hi> there doth he thruſt</l>
+                  <l>His ſlaughtering Arm into the ſtouteſt troops,</l>
+                  <l>See there he come, <hi>reeking</hi> with blood and duſt,</l>
+                  <l>Whilſt every Object of his Fury ſtoops</l>
+                  <l>To's angry ſword's ſtrong force; no blow doth need</l>
+                  <l>A ſecond to aſſiſt its murd'ring ſpeed.</l>
+               </lg>
+               <lg n="4">
+                  <head>IV.</head>
+                  <l>Before <hi>Him</hi> ſtill they fall, and ſtill they fly,</l>
+                  <l>(Tumbling in dying <hi>Heaps</hi> they ſtop his way)</l>
+                  <l>Thouſands of <hi>panting Corpſe,</hi> that fain would dye,</l>
+                  <l>Breath out their ſouls with curſes of the day,</l>
+                  <l>
+                     <hi>Gnawing</hi> the ground with rage; unweary'd <hi>He</hi>
+                  </l>
+                  <l>Send's thouſands more t' attend their deſtiny.</l>
+               </lg>
+               <lg n="5">
+                  <head>V.</head>
+                  <l>
+                     <hi>Heaven</hi> ſmil'd, and ſaw an <hi>eaſie</hi> victory</l>
+                  <l>Following <hi>his</hi> mighty <hi>Arm:</hi> but thought it fit</l>
+                  <l>That <hi>Charles</hi> (that glorious <hi>Name</hi>) ſhould raiſed be</l>
+                  <l>B' <hi>another Conqueſt,</hi> far more great than it,</l>
+                  <l>Which, like ſtrong Light'ning without wound or ſmart,</l>
+                  <l>Should leave the <hi>Body</hi> whole and melt the <hi>Heart.</hi>
+                  </l>
+               </lg>
+               <pb n="11" facs="tcp:168880:7"/>
+               <lg n="6">
+                  <head>VI.</head>
+                  <l>Heaven ſounded his <hi>Retreat,</hi> and ready <hi>He</hi>
+                  </l>
+                  <l>Obey'd e'ne to his loſs, and left the field:</l>
+                  <l>
+                     <hi>Cromwel</hi> miſtook it for a victory,</l>
+                  <l>And thought it <hi>poſsible that Charles could yield:</hi>
+                  </l>
+                  <l>Stay ragefull <hi>Tyrant,</hi> ſtay! <hi>Heaven</hi> thinks that He</l>
+                  <l>Better deſerv's to live than all thy <hi>Hoſt</hi> and <hi>Thee.</hi>
+                  </l>
+               </lg>
+            </div>
+            <div type="part">
+               <lg n="1">
+                  <head>I.</head>
+                  <l>HE lives and GOD WITH HIM, His <hi>Exile</hi>'s force</l>
+                  <l>Could ne're create to <hi>Him</hi> ſo great a loſs,</l>
+                  <l>Though th' frantick <hi>Common-wealth</hi> ſtrove to divorce</l>
+                  <l>King, <hi>Heaven</hi> and <hi>Him;</hi> whilſt round their <hi>ſilver Croſs</hi>
+                  </l>
+                  <l>Run GOD WITH US, Heaven left <hi>them</hi> all for <hi>One</hi>
+                  </l>
+                  <l>And rather choſe to live with <hi>Charles</hi> alone.</l>
+               </lg>
+               <lg n="2">
+                  <head>II.</head>
+                  <l>They'r all miſtook that ſay <hi>his</hi> quiet Breaſt</l>
+                  <l>Was clouded and diſturbed with <hi>fretting</hi> care,</l>
+                  <l>There alwayes dwelt <hi>Serenity</hi> and reſt,</l>
+                  <l>As in the <hi>upper Region</hi> of the <hi>Air,</hi>
+                  </l>
+                  <l>Above thoſe ſtormy Paſſions, jealous fears,</l>
+                  <l>Which <hi>ſcall'd</hi> our <hi>minds</hi> with <hi>grief,</hi> and <hi>eyes</hi> with <hi>tears.</hi>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <head>II.</head>
+                  <l>'Tis true, a <hi>loving watch</hi> did alwayes dwell</l>
+                  <l>In his <hi>ſweet Eye,</hi> which kindly ſtill did bend</l>
+                  <l>To poor diſtracted <hi>Albion,</hi> and did tell</l>
+                  <l>
+                     <hi>His</hi> royal heart what Tyranyes did rend</l>
+                  <l>His tott'ring Kingdomes; whilſt we guiltleſs lay</l>
+                  <l>Priſ'ners that <hi>fear'd,</hi> but not <hi>deſerv'd the day.</hi>
+                  </l>
+               </lg>
+               <pb n="12" facs="tcp:168880:8"/>
+               <lg n="4">
+                  <head>VI.</head>
+                  <l>Nor can I blame thoſe <hi>crafty cares</hi> that wrought</l>
+                  <l>Their <hi>Subtle ſelves</hi> into <hi>His</hi> royal mind,</l>
+                  <l>Where they the <hi>mighty things</hi> that paſs his thought</l>
+                  <l>And <hi>his great ſoul's</hi> ſublime productions find.</l>
+                  <l>I'de wiſh my ſelf transform'd into a <hi>Care,</hi>
+                  </l>
+                  <l>If, without <hi>Treaſon's</hi> guilt I might dwell there.</l>
+               </lg>
+               <lg n="5">
+                  <head>V.</head>
+                  <l>Long maiſt Thou live <hi>Great Prince,</hi> and ſtill mayſt be</l>
+                  <l>A terrour to thy <hi>Foes,</hi> as thou haſt been</l>
+                  <l>To every <hi>vice</hi> that hath aſſaulted <hi>Thee:</hi>
+                  </l>
+                  <l>Whilſt the diſcover'd <hi>Plots</hi> of crafty <hi>Sin,</hi>
+                  </l>
+                  <l>Though all contriv'd in deepeſt policy,</l>
+                  <l>Are not more <hi>known</hi> than they are <hi>ſhunn'd</hi> by <hi>Thee.</hi>
+                  </l>
+               </lg>
+               <lg n="6">
+                  <head>VI.</head>
+                  <l>Under <hi>thy</hi> potent Influence I truſt</l>
+                  <l>Some condeſcending <hi>Muſe</hi> will viſit <hi>me,</hi>
+                  </l>
+                  <l>And lift my groveling Phanſie out o' th' duſt,</l>
+                  <l>Stretching my <hi>dwarfiſh Rimes</hi> to <hi>Poetry;</hi>
+                  </l>
+                  <l>Then the firſt <hi>Theme divine,</hi> of which I'le ſing</l>
+                  <l>Shall be a <hi>Panegyrick</hi> to the KING.</l>
+               </lg>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
